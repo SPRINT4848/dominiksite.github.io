@@ -129,6 +129,11 @@ nav ul li {
 	height: 16px;
 }
 
+.right {
+	position: relative;
+	float:right;
+}
+
 .invert {
 	filter: invert(100%);
 }
