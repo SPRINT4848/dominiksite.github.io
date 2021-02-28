@@ -1,6 +1,6 @@
 body {
 	/*background: #999;*/
-	background-image: url("../background.png");
+	background-image: url("../web-background-v2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -109,7 +109,7 @@ nav ul li {
 	top: 0px;
 	left: 0px;
 	
-	backdrop-filter: blur(5px);
+	/*backdrop-filter: blur(5px);*/
 }
 
 .page-title {
