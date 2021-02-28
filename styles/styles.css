@@ -1,13 +1,8 @@
 body {
-	/*background: #999;*/
 	background-image: url("../web-background-v2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	
-	/*backdrop-filter: blur(5px);*/
-	
-	/*filter: blur(5px);*/
 	
 	font-family: arial;
 	margin: 0px;
@@ -21,16 +16,12 @@ header h1 {
 }
 
 header img {
-	/*position: absolute;
-	display: block;
 	width: 70px;
-	left: 50%;
-	border-radius: 40px;*/
-	position: absolute;
 	display: block;
-	width: 70px;
 	border-radius: 40px;
 	border: solid 2px rgb(62, 36, 180);
+	
+	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -38,19 +29,13 @@ header img {
 header {
 	background: rgb(34, 34, 34);
 	color: rgb(86, 255, 128);
-	padding-top: 9px;
-	padding-left: 9px;
+	padding: 9px 0 0 9px;
 	
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.308);
 }
 
 a {
 	color: rgb(113, 246, 255);
-}
-
-li a {
-	color: rgb(84, 66, 104);
-	text-decoration: none;
 }
 
 p {
@@ -63,16 +48,6 @@ p {
 
 p a {
 	padding-left: 35px;
-}
-
-#special {
-	color: black;
-	background: yellow;
-	border: black solid 2px;
-	height: 75px;
-	text-align: center;
-	padding: 30px 15px;
-	font-size: 1.2em;
 }
 
 nav {
@@ -93,28 +68,17 @@ nav ul li {
 	/*padding: 5px 20px;*/
 	width: 100px;
 	height: 30px;
-	margin-bottom: 5px;
-	margin-right: 10px;
+	margin: 0 10px 5px 0;
 	align-items: center;
 	line-height: 31px;
 	
 	border: rgb(84, 66, 104) solid 2px;
 	border-radius: 5px;
-	
-	
 }
 
-#blur {
-	z-index: -10;
-	background: rgba(0, 0, 0, 0.3);
-	width: 100%;
-	height: 100vh;
-	position: fixed;
-	
-	top: 0px;
-	left: 0px;
-	
-	/*backdrop-filter: blur(5px);*/
+li a {
+	color: rgb(84, 66, 104);
+	text-decoration: none;
 }
 
 .division {
@@ -129,11 +93,6 @@ nav ul li {
 	height: 16px;
 }
 
-.right {
-	position: relative;
-	float:right;
-}
-
 .invert {
 	filter: invert(100%);
 }
@@ -146,26 +105,22 @@ nav ul li {
 	padding-left: 0;
 }
 
-
-/* BUTTON */
-.button {
-	/* margin: 15px 75px; */
-	/* width: 135px; */
-	margin: 15px 75px;
-	width: 350px;
-	height: 32px;
-	border-radius: 3px;
-	border: none;
-	background-color: white;
+.right {
+	position: relative;
+	float:right;
 }
 
-.button:focus {
-	outline: none;
-	box-shadow: 0 0 3px 0 #ddd;
-}
-
-.button:hover {
-	background-color: #E5E7E9;
+#blur {
+	z-index: -10;
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	
+	top: 0px;
+	left: 0px;
+	
+	backdrop-filter: blur(5px);
 }
 
 
