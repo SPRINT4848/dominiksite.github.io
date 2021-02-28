@@ -45,15 +45,20 @@ header {
 }
 
 a {
+	color: rgb(113, 246, 255);
+}
+
+li a {
 	color: rgb(84, 66, 104);
 	text-decoration: none;
 }
 
 p {
 	color: white;
-	background: #222;
+	background: rgb(58, 58, 58);
 	padding: 10px 15px;
-	margin: 15px 75px;
+	margin: 15px 250px;
+	border-radius: 10px;
 }
 
 p a {
@@ -112,13 +117,6 @@ nav ul li {
 	/*backdrop-filter: blur(5px);*/
 }
 
-.page-title {
-	background-color: rgba(255, 255, 255, 0.4);
-	color: black;
-	text-align: center;
-	font-size: 1.2em;
-}
-
 .division {
 	margin-top: 60px;
 }
@@ -136,7 +134,7 @@ nav ul li {
 }
 
 .nolink {
-	color: white;
+	color: rgb(145, 145, 145);
 }
 
 .noicon {
