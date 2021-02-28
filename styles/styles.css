@@ -81,6 +81,10 @@ li a {
 	text-decoration: none;
 }
 
+.bg2 {
+	background-image: url("../background-games.jpg");
+}
+
 .division {
 	margin-top: 60px;
 }
